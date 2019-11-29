@@ -1,0 +1,51 @@
+#contact {
+  background: black;
+  color: white;
+  padding: 4rem 0;
+  position: relative;
+
+  #back-text {
+    position: absolute;
+    font-size: 8rem;
+    color: #292525;
+    font-weight: bolder;
+    left: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .mail {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
+    svg {
+      margin-right: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #contact {
+    text-align: center;
+
+    #back-text{
+      font-size: 4.5rem;
+    }
+
+    .mail {
+      justify-content: center;
+      font-size: 2rem;
+
+      svg {
+        display: none;
+      }
+    }
+  }
+}
