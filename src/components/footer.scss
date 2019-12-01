@@ -10,6 +10,10 @@ footer {
     }
   }
 
+  div:last-child{
+    margin-bottom: 1rem;
+  }
+
   h3 {
     font-size: 1rem;
     font-weight: bolder;
@@ -46,7 +50,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
         content: '';
-        width: 70px;
+        width: 35px;
         position: absolute;
         border-bottom: #0a0a0a 3px solid;
       }

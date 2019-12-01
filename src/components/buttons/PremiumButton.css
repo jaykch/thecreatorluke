@@ -1,0 +1,48 @@
+.premium-button {
+    color: #fafafa!important;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: .75rem;
+    border: 2px solid #0a0a0a;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: .6rem;
+    background-color: #0a0a0a;
+    -webkit-box-shadow:0 0 10px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,0.8);
+    box-shadow:0 0 10px rgba(0,0,0,0.8);
+    background-image: -webkit-linear-gradient(30deg, #fafafa 50%, transparent 0);
+    background-image: -webkit-linear-gradient(60deg, #fafafa 50%, transparent 0);
+    background-image: linear-gradient(30deg, #fafafa 50%, transparent 0);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position:100%;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.premium-button, .premium-button:hover {
+    text-decoration: none;
+}
+
+.premium-button .arrow {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.premium-button:hover {
+    background-position: 0;
+    color: #0a0a0a!important;
+    opacity: 1;
+}
+
+.premium-button:hover .arrow {
+    margin-left: 5px;
+}

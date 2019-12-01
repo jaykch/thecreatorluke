@@ -3,21 +3,26 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Container, Nav, Navbar } from "react-bootstrap"
 import "./header.scss"
+import logo from "../images/logo.png"
+import { AiOutlineAlignRight } from "react-icons/ai";
 
-const Header = ({ siteTitle }) => (
+
+const Header = () => (
   <header>
     <Container>
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">CX</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+      <Navbar expand="lg">
+        <Link to="/" className="logo"><img src={logo} alt="CX"/></Link>
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <AiOutlineAlignRight/>
+        </Navbar.Toggle>
         <Navbar.Collapse id="navbar">
           <Nav className="m-auto main-nav">
             <Navbar.Text><Link to="/" activeClassName="active">Home</Link></Navbar.Text>
-            <Navbar.Text><Link to="/projects" activeClassName="active">Projects</Link></Navbar.Text>
-            <Navbar.Text><Link to="/services" activeClassName="active">Services</Link></Navbar.Text>
+            <Navbar.Text><Link to="/projects" activeClassName="active">Projekte</Link></Navbar.Text>
+            <Navbar.Text><Link to="/services" activeClassName="active">Leistungen</Link></Navbar.Text>
             <Navbar.Text><Link to="/team" activeClassName="active">Team</Link></Navbar.Text>
           </Nav>
-          <Nav className="ml-auto">
+          <Nav className="ml-auto nav-email">
             <Navbar.Text>
               <a href="mailto:email@email.com?subject=Mail from Our Site">email@email.com</a>
             </Navbar.Text>

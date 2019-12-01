@@ -1,4 +1,57 @@
-a{
-  color: inherit!important;
-  text-decoration: none!important;
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+@import './_variables';
+
+ul{
+  list-style: none;
+  margin: 0;
+}
+
+#imprint, #privacy{
+
+  margin: 3rem 0;
+
+  h2{
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+}
+
+#imprint{
+  margin-top: 5rem;
+}
+
+.title{
+  text-align: center;
+
+  h2{
+    font-weight: 800;
+    margin-bottom: 0;
+    font-size: 3rem;
+  }
+  span{
+    color: $secondary;
+    font-weight: 600;
+  }
+  margin-bottom: 4rem;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+
+  &:hover{
+    opacity: 0.5;
+  }
 }

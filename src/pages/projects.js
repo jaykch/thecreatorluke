@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap"
 
 const Projects = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Projekte" description="Diese Projekte haben wir bereits erfolgreich umgesetzt."/>
     <section>
       <Container>
         Projects

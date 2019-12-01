@@ -1,5 +1,5 @@
 import React from "react"
-import { Col, Container, Navbar, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import "./contact.scss"
 import {IoIosPaperPlane} from "react-icons/io"
 
@@ -9,7 +9,7 @@ const Contact = () => (
     <Container>
       <Row>
         <Col md={6}>
-          <h2>Let's Talk!</h2>
+          <h2>Let's talk!</h2>
           <p>Egal ob du eine große Agentur, ein neues Start-Up oder ein kleines Studio hast oder einfach
             jemand mit einer Idee oder einem unvollendeten Projekt bist: Schreib uns!</p>
         </Col>
