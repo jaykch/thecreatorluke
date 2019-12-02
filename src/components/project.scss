@@ -1,0 +1,121 @@
+@import "./_variables.scss";
+
+.projects {
+  padding: 4rem 0;
+
+  .project-wrapper {
+    border-radius: 20px;
+    margin: 1rem 0;
+    height: 200px;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 12px 20px -9px rgba(0, 0, 0, 0.5);
+
+    opacity: 1;
+    -webkit-transition: opacity .5s ease;
+    -moz-transition: opacity .5s ease;
+    -ms-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+
+    &:hover {
+      opacity: .8;
+    }
+
+    .details {
+      color: $background;
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 20px;
+      font-size: 0.8rem;
+
+      h3 {
+        font-weight: 700;
+        font-size: 1.75rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.modal {
+  padding: 0 !important;
+}
+
+.modal-content {
+  border: none;
+  border-radius: 0;
+  padding: 3.5rem 6rem;
+  width: auto;
+  color: $primary;
+
+  .modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 3rem;
+    color: $primary;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: opacity .5s ease;
+    -moz-transition: opacity .5s ease;
+    -ms-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+
+  .modal-header {
+    border: none;
+
+    .modal-title {
+      text-align: center;
+      width: 100%;
+
+      h3 {
+        width: 100%;
+        font-weight: 700;
+      }
+
+      p {
+        color: $secondary;
+        font-size: 1rem;
+      }
+
+    }
+  }
+}
+
+.modal-dialog-centered {
+  max-width: none;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .projects {
+    .project-wrapper {
+      height: 150px;
+    }
+  }
+
+  .modal-content {
+    padding: .5rem 1rem;
+
+    .modal-close {
+      top: .5rem;
+      right: .5rem;
+      font-size: 2rem;
+    }
+
+    iframe {
+      width: 300px;
+      height: 200px;
+    }
+  }
+}

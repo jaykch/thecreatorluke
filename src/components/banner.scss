@@ -1,4 +1,23 @@
+@import "./_variables.scss";
+
 #banner {
+
+  .brand-title {
+    position: absolute;
+    left: -20px;
+    font-size: 2rem;
+    font-weight: 600;
+    top: 20px;
+    text-transform: uppercase;
+    z-index: -1;
+    color: $secondary;
+  }
+
+  img {
+    z-index: 2;
+    margin-bottom: 0;
+    width: 100%;
+  }
 
   div:nth-child(1) {
     padding-top: 3rem;
@@ -6,10 +25,59 @@
   }
 
   h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
     margin: 1.5rem 0;
   }
 
-  p{
+  p {
     margin-bottom: 2rem;
+  }
+
+  .showcase {
+
+    text-align: center;
+    vertical-align: middle;
+
+    .banner-image{
+      width: 100%;
+    }
+
+    .thumbnail {
+      width: 70%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    .blurred {
+      position: absolute;
+      width: 50%;
+      bottom: 0;
+      left: 10px;
+      z-index: -1;
+      filter: blur(8px);
+      -webkit-filter: blur(8px)
+    }
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  #banner {
+    .brand-title {
+      left: 15px;
+    }
+
+    .banner-logo{
+      margin-bottom: 2.5rem;
+    }
+
+    .container{
+      padding-top: 0!important;
+    }
   }
 }

@@ -17,7 +17,7 @@ const Members = () => (
           </div>
           <h3>Member1</h3>
           <span>- function x -</span>
-          <a href="https://www.linkedin.com/"><AiFillLinkedin/></a>
+          <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
         <Col md={4} className="member">
           <div className="image-container">
@@ -25,7 +25,7 @@ const Members = () => (
           </div>
           <h3>Member2</h3>
           <span>- function y -</span>
-          <a href="https://www.linkedin.com/"><AiFillLinkedin/></a>
+          <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
       </Row>
       <Row>
@@ -35,7 +35,7 @@ const Members = () => (
           </div>
           <h3>Member3</h3>
           <span>- function z -</span>
-          <a href="https://www.linkedin.com/"><AiFillLinkedin/></a>
+          <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
         <Col md={4} className="member">
           <div className="image-container">
@@ -43,7 +43,7 @@ const Members = () => (
           </div>
           <h3>Member4</h3>
           <span>- function x -</span>
-          <a href="https://www.linkedin.com/"><AiFillLinkedin/></a>
+          <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
         <Col md={4} className="member">
           <div className="image-container">
@@ -51,7 +51,7 @@ const Members = () => (
           </div>
           <h3>Member5</h3>
           <span>- function y -</span>
-          <a href="https://www.linkedin.com/"><AiFillLinkedin/></a>
+          <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
       </Row>
     </Container>

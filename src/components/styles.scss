@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import './_variables';
+
 * {
   font-family: 'Poppins', sans-serif !important;
 }
 
-@import './_variables';
+html, body {
+  color: $primary!important;
+  background-color: $background!important;
+}
 
-ul{
+ul {
   list-style: none;
   margin: 0;
 }
 
-#imprint, #privacy{
+#imprint, #privacy {
 
   margin: 3rem 0;
 
-  h2{
+  h2 {
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -22,22 +27,24 @@ ul{
   }
 }
 
-#imprint{
+#imprint {
   margin-top: 5rem;
 }
 
-.title{
+.title {
   text-align: center;
 
-  h2{
+  h2 {
     font-weight: 800;
     margin-bottom: 0;
     font-size: 3rem;
   }
-  span{
+
+  span {
     color: $secondary;
     font-weight: 600;
   }
+
   margin-bottom: 4rem;
 }
 
@@ -51,7 +58,7 @@ a {
   -o-transition: all .4s ease;
   transition: all .4s ease;
 
-  &:hover{
+  &:hover {
     opacity: 0.5;
   }
 }

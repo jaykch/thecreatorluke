@@ -10,25 +10,25 @@ const Footer = () => (
         <Col md={6}>
           <h3>Company Name</h3>
           <ul>
-            <li>Company Description</li>
-            <li>email email</li>
-            <li>Linkedin</li>
+            <li><Link to="/" activeClassName="active">Company Description</Link></li>
+            <li><a href="mailto:email@email.com?subject=Mail from Our Site">email@email.com</a></li>
+            <li><a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank">Linkedin</a></li>
           </ul>
         </Col>
         <Col md={3}>
           <h3>Sitemap</h3>
           <ul>
-            <li><Link to="/" activeClassName="active">About</Link></li>
-            <li><Link to="/projects" activeClassName="active">Projects</Link></li>
-            <li><Link to="/services" activeClassName="active">Services</Link></li>
-            <li><Link to="/" activeClassName="active">Contact</Link></li>
+            <li><Link to="/" activeClassName="active">Home</Link></li>
+            <li><Link to="/projects" activeClassName="active">Projekte</Link></li>
+            <li><Link to="/services" activeClassName="active">Leistungen</Link></li>
+            <li><Link to="/team" activeClassName="active">Team</Link></li>
           </ul>
         </Col>
         <Col md={3}>
           <h3>Rechtliches</h3>
           <ul>
-            <li>Impressum</li>
-            <li>Datenschutz</li>
+            <li><Link to="/imprint" activeClassName="active">Impressum</Link></li>
+            <li><Link to="/imprint" activeClassName="active">Datenschutz</Link></li>
           </ul>
         </Col>
       </Row>
