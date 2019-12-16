@@ -8,10 +8,10 @@ const Footer = () => (
     <Container>
       <Row>
         <Col md={6}>
-          <h3>Company Name</h3>
+          <h3>excyted UG</h3>
           <ul>
-            <li><Link to="/" activeClassName="active">Company Description</Link></li>
-            <li><a href="mailto:email@email.com?subject=Mail from Our Site">email@email.com</a></li>
+            <li><Link to="/" activeClassName="active">Medienagentur</Link></li>
+            <li><a href="mailto:mail@excyted.io?subject=Mail from Our Site">mail@excyted.io</a></li>
             <li><a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank">Linkedin</a></li>
           </ul>
         </Col>

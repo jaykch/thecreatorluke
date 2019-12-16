@@ -1,3 +1,5 @@
+@import './_variables';
+
 #members {
   padding: 5rem 0;
 
@@ -18,7 +20,7 @@
       margin-bottom: 2rem;
 
       svg {
-        color: black;
+        color: $primary;
         font-size: 2rem;
         position: absolute;
         left: 5%;

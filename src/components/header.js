@@ -21,10 +21,11 @@ const Header = () => (
             <Navbar.Text><Link to="/projects" activeClassName="active">Projekte</Link></Navbar.Text>
             <Navbar.Text><Link to="/services" activeClassName="active">Leistungen</Link></Navbar.Text>
             <Navbar.Text><Link to="/team" activeClassName="active">Team</Link></Navbar.Text>
+            <Navbar.Text><Link to="/jobs" activeClassName="active">Jobs</Link></Navbar.Text>
           </Nav>
           <Nav className="ml-auto nav-email">
             <Navbar.Text>
-              <a href="mailto:email@email.com?subject=Mail from Our Site">email@email.com</a>
+              <a href="mailto:mail@excyted.io?subject=Mail from Our Site">mail@excyted.io</a>
             </Navbar.Text>
           </Nav>
         </Navbar.Collapse>

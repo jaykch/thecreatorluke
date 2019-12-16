@@ -8,7 +8,7 @@ const Members = () => (
     <Container>
       <div className="title">
         <h2>Unser Team</h2>
-        <span>Wer wir sind</span>
+        <p>Mit wem wir excyten</p>
       </div>
       <Row>
         <Col md={{ span: 4, offset: 2 }} className="member">
@@ -16,7 +16,7 @@ const Members = () => (
             <AiOutlinePlayCircle/>
           </div>
           <h3>Member1</h3>
-          <span>- function x -</span>
+          <span>- management and camera -</span>
           <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
         <Col md={4} className="member">
@@ -24,7 +24,7 @@ const Members = () => (
             <AiOutlinePlayCircle/>
           </div>
           <h3>Member2</h3>
-          <span>- function y -</span>
+          <span>- camera -</span>
           <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
       </Row>
@@ -34,7 +34,7 @@ const Members = () => (
             <AiOutlinePlayCircle/>
           </div>
           <h3>Member3</h3>
-          <span>- function z -</span>
+          <span>- IT & WEB -</span>
           <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
         <Col md={4} className="member">
@@ -42,7 +42,7 @@ const Members = () => (
             <AiOutlinePlayCircle/>
           </div>
           <h3>Member4</h3>
-          <span>- function x -</span>
+          <span>- photo -</span>
           <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
         <Col md={4} className="member">
@@ -50,7 +50,7 @@ const Members = () => (
             <AiOutlinePlayCircle/>
           </div>
           <h3>Member5</h3>
-          <span>- function y -</span>
+          <span>- communication & design -</span>
           <a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><AiFillLinkedin/></a>
         </Col>
       </Row>

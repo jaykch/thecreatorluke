@@ -6,8 +6,13 @@
 }
 
 html, body {
-  color: $primary!important;
-  background-color: $background!important;
+  color: $primary !important;
+  background-color: #000000;
+}
+
+main {
+  background: $gradientBackground;
+  background-attachment: fixed;
 }
 
 ul {
@@ -17,7 +22,7 @@ ul {
 
 #imprint, #privacy {
 
-  margin: 3rem 0;
+  padding: 3rem 0;
 
   h2 {
     font-size: 2rem;
@@ -27,22 +32,62 @@ ul {
   }
 }
 
-#imprint {
-  margin-top: 5rem;
-}
+#jobs {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 
-.title {
-  text-align: center;
-
-  h2 {
+  h1 {
     font-weight: 800;
     margin-bottom: 0;
     font-size: 3rem;
   }
 
-  span {
+  p {
     color: $secondary;
     font-weight: 600;
+    font-size: .8rem;
+  }
+
+  h2 {
+    margin: 1.5rem 0;
+    font-weight: 700;
+  }
+
+  ul {
+    margin-bottom: 1.5rem;
+
+    li {
+      font-size: 1rem;
+
+      span {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  a {
+    font-weight: 800;
+    font-size: 1rem;
+  }
+}
+
+#imprint {
+  padding-top: 5rem;
+}
+
+.title {
+  text-align: center;
+
+  h2, h1 {
+    font-weight: 800;
+    margin-bottom: 0;
+    font-size: 3rem;
+  }
+
+  p, span {
+    color: $secondary;
+    font-weight: 600;
+    font-size: .8rem;
   }
 
   margin-bottom: 4rem;

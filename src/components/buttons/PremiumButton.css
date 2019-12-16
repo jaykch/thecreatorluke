@@ -1,25 +1,23 @@
 .premium-button {
-    color: #fafafa!important;
+    color: #000!important;
     display: inline-block;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: .75rem;
+    padding: .8rem 1.5rem;
     border: 2px solid #0a0a0a;
     border-radius: 5px;
-    font-weight: bold;
-    letter-spacing: .1rem;
-    font-size: .6rem;
-    background-color: #0a0a0a;
-    -webkit-box-shadow:0 10px 20px rgba(0,0,0,0.4);
-    -moz-box-shadow:0 10px 20px rgba(0,0,0,0.4);
-    box-shadow:0 10px 20px rgba(0,0,0,0.4);
-    background-image: -webkit-linear-gradient(30deg, #fafafa 50%, transparent 0);
-    background-image: -webkit-linear-gradient(60deg, #fafafa 50%, transparent 0);
-    background-image: linear-gradient(30deg, #fafafa 50%, transparent 0);
-    background-size: 600px;
-    background-repeat: no-repeat;
-    background-position:100%;
+    font-weight: 600;
+    font-size: .9rem;
+    /*background-color: #0a0a0a;*/
+    -webkit-box-shadow:0px 0px 25px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow:0px 0px 25px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.4);
+    /*background-image: -webkit-linear-gradient(60deg, #fafafa 50%, transparent 0);*/
+    /*background-size: 600px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position:100%;*/
+    background: linear-gradient(149.58deg, #8E9EAB -29.14%, #EEF2F3 93.52%);
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
@@ -37,9 +35,9 @@
 }
 
 .premium-button:hover {
-    background-position: 0;
-    color: #0a0a0a!important;
-    opacity: 1;
+    /*background-position: 0;*/
+    /*color: #fff!important;*/
+    opacity: .8;
 }
 
 .premium-button:hover .arrow {

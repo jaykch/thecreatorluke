@@ -1,7 +1,11 @@
+@import './_variables';
+
 footer {
   padding: 3rem 0;
   font-size: 0.9rem;
-  line-height: 2rem;
+  line-height: 28px;
+  background: $background;
+  border-top: $sectionSeparator 1px solid;
 
   div {
     text-align: right;

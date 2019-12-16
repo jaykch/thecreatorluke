@@ -2,22 +2,28 @@
 
 #banner {
 
-  .brand-title {
-    position: absolute;
-    left: -20px;
-    font-size: 2rem;
-    font-weight: 600;
-    top: 20px;
-    text-transform: uppercase;
-    z-index: -1;
-    color: $secondary;
+  .banner-text {
+    position: relative;
+    z-index: 1;
+
+    .brand-title {
+      position: absolute;
+      left: -20px;
+      font-size: 30px;
+      font-weight: 600;
+      top: 20px;
+      text-transform: uppercase;
+      z-index: -1;
+      color: rgba(255, 255, 255, 0.35);
+    }
+
+    img {
+      z-index: 2;
+      margin-bottom: 0;
+      width: 100%;
+    }
   }
 
-  img {
-    z-index: 2;
-    margin-bottom: 0;
-    width: 100%;
-  }
 
   div:nth-child(1) {
     padding-top: 3rem;
@@ -25,8 +31,8 @@
   }
 
   h3 {
-    font-weight: 700;
-    font-size: 1.2rem;
+    font-weight: bold;
+    font-size: 1rem;
     margin: 1.5rem 0;
   }
 
@@ -39,7 +45,7 @@
     text-align: center;
     vertical-align: middle;
 
-    .banner-image{
+    .banner-image {
       width: 100%;
     }
 
@@ -72,12 +78,12 @@
       left: 15px;
     }
 
-    .banner-logo{
+    .banner-logo {
       margin-bottom: 2.5rem;
     }
 
-    .container{
-      padding-top: 0!important;
+    .container {
+      padding-top: 0 !important;
     }
   }
 }
