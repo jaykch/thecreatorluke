@@ -9,7 +9,7 @@ import Project from "../components/project"
 const Projects = ({ data }) => {
   const { edges } = data.allContentfulProject
   const projectArray = edges.map((edge) => {
-    return <Project key={edge.node.title} data={edge.node}/>
+    return <Project key={edge.node.title} data={edge.node} images={edge.node.images ? edge.node.images : ""}/>
   })
 
   return (
@@ -40,6 +40,11 @@ export const query = graphql`
             }
           }
           video
+          images {
+            file {
+              url
+            }
+          }
         }
       }
     }

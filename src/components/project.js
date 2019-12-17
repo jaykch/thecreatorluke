@@ -21,7 +21,7 @@ const Project = ({ data }) => {
         </div>
       </div>
       <Modal show={show} onHide={handleClose} centered>
-          <IoMdClose onClick={handleClose} className="modal-close"/>
+        <IoMdClose onClick={handleClose} className="modal-close"/>
         <Modal.Header>
           <Modal.Title>
             <h3>{data.title}</h3>
@@ -32,6 +32,14 @@ const Project = ({ data }) => {
           <iframe width="560" height="315" src={data.video} frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen title={data.title}/>
+          <div className="images-container">
+            {data.images?data.images.map((image) => {
+              console.log(image.file.url)
+              return (
+                <img src={image.file.url} alt="portfolio image" className="portfolio-image"/>
+              )
+            }):null}
+          </div>
         </Modal.Body>
       </Modal>
     </Col>
