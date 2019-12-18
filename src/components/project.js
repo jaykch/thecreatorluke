@@ -38,7 +38,7 @@ const Project = ({ data }) => {
             {data.images ? data.images.map((image) => {
               console.log(image.file.url)
               return (
-                <img src={image.file.url} alt="portfolio image" className="portfolio"/>
+                <img src={image.file.url} alt="portfolio" className="portfolio-image"/>
               )
             }) : null}
           </div>
