@@ -7,7 +7,7 @@ import { FaCameraRetro, FaTabletAlt } from "react-icons/fa"
 
 const Jobs = () => (
   <Layout>
-    <SEO title="Jobs"/>
+    <SEO title="Jobs" description="Wir suchen Freelancer in vielen Bereichen. Melde dich bei uns."/>
     <section id="jobs">
       <Container>
         <div className="text-left"><h1>Jobs</h1><p>Excyted mit uns zu arbeiten?</p></div>

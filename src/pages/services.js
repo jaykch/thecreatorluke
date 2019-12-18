@@ -6,7 +6,7 @@ import ServicesComponent from "../components/services"
 
 const Services = () => (
   <Layout>
-    <SEO title="Leistungen" description="Wie wir arbeiten und was wir anbieten."/>
+    <SEO title="Leistungen" description="So setzen wir unsere Projekte um."/>
     <ServicesComponent/>
     <Clients/>
   </Layout>

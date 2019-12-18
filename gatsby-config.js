@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Excyted - We create`,
-    description: `Als eine hybride Werbeproduktion designen, entwickeln und produzieren wir kreative Produkte für deine Marke, dein Unternehmen oder dein Projekt. Unser Fokus liegt auf Qualität und individueller Zusammenarbeit.`,
+    description: `Als eine hybride Werbeproduktion entwickeln wir kreative Lösungen für deine Marke, dein Unternehmen oder dein Projekt. Unser Fokus liegt auf Qualität und individueller Zusammenarbeit.`,
     author: `@jaykch`,
     keywords: ["Werbeagentur", "Filmproduktion", "digital"],
   },

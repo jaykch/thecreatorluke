@@ -7,7 +7,7 @@ import Members from "../components/members"
 const Team = () => (
   <Layout>
     <SEO title="Team"
-         description="Wir greifen auf ein Team aus Design, Film, Foto, Web Development, Content und vielen anderen Bereichen zurück."/>
+         description="Das sind wir. Ein interdisziplinäres Team aus kreativen Köpfen."/>
     <Members/>
     <Values/>
   </Layout>

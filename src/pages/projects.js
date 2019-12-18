@@ -14,7 +14,7 @@ const Projects = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Projekte" description="Diese Projekte haben wir bereits erfolgreich umgesetzt."/>
+      <SEO title="Projekte" description="Das haben wir bereits produziert."/>
       <section className="projects">
         <Container>
           <Row>
