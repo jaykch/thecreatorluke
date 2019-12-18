@@ -10,7 +10,7 @@ const Banner = () => (
     <Container>
       <Row>
         <Col md={6} className="banner-text">
-          <span className="brand-title">Brand. Digital and Motion</span>
+          <span className="brand-title">Brand. Digital and Motion.</span>
           <img src={logo} alt="Logo" className="banner-logo"/>
           <h3>MEDIENAGENTUR</h3>
           <p>Als eine hybride Werbeproduktion aus Köln entwickeln wir kreative

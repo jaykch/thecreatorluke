@@ -16,8 +16,8 @@ const Project = ({ data }) => {
     <Col lg={4} className="project">
       <div className="project-wrapper" onClick={handleShow} style={style}>
         <div className="details">
-          <h3>{data.title}</h3>
           <p><span>{data.category}</span> - <span>{data.type}</span></p>
+          <h3>{data.title}</h3>
         </div>
       </div>
       <Modal show={show} onHide={handleClose} centered>
@@ -29,16 +29,18 @@ const Project = ({ data }) => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <iframe width="560" height="315" src={data.video} frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen title={data.title}/>
+          {
+            data.video ? <iframe width="560" height="315" src={data.video} frameBorder="0"
+                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                 allowFullScreen title={data.title}/> : null
+          }
           <div className="images-container">
-            {data.images?data.images.map((image) => {
+            {data.images ? data.images.map((image) => {
               console.log(image.file.url)
               return (
-                <img src={image.file.url} alt="portfolio image" className="portfolio-image"/>
+                <img src={image.file.url} alt="portfolio image" className="portfolio"/>
               )
-            }):null}
+            }) : null}
           </div>
         </Modal.Body>
       </Modal>

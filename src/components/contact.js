@@ -5,8 +5,8 @@ import {IoIosPaperPlane} from "react-icons/io"
 
 const Contact = () => (
   <section id="contact">
-    <span id="back-text">Kontakt</span>
     <Container>
+      <span id="back-text">Kontakt</span>
       <Row>
         <Col md={6}>
           <h2>Let's talk!</h2>

@@ -1,7 +1,7 @@
 import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-import { Col, Container, Navbar, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import { AiOutlineScissor } from "react-icons/ai"
 import { FaCameraRetro, FaTabletAlt } from "react-icons/fa"
 

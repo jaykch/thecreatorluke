@@ -13,7 +13,10 @@ const Services = () => (
       </div>
       <Row className="services-with-icons">
         <Col md={4}>
-          <h2><AiOutlineEye/>Visuals</h2>
+          <div className="service-title">
+            <AiOutlineEye/>
+            <h2>Visuals</h2>
+          </div>
           <ul>
             <li>Film</li>
             <li>Foto</li>
@@ -22,7 +25,10 @@ const Services = () => (
           </ul>
         </Col>
         <Col md={4}>
-          <h2><AiOutlineAppstore/>Design</h2>
+          <div className="service-title">
+            <AiOutlineAppstore/>
+            <h2>Design</h2>
+          </div>
           <ul>
             <li>Prototyping</li>
             <li>UI/UX</li>
@@ -31,7 +37,10 @@ const Services = () => (
           </ul>
         </Col>
         <Col md={4}>
-          <h2><MdShowChart/>Strategy</h2>
+          <div className="service-title">
+            <MdShowChart/>
+            <h2>Strategy</h2>
+          </div>
           <ul>
             <li>Marketing</li>
             <li>Positioning</li>
@@ -66,7 +75,7 @@ const Services = () => (
               </p>
             </div>
           </Col>
-          <Col md={6} style={{ borderRight: "1.5px solid #313131" }}>
+          <Col md={6} style={{ borderRight: "1.5px solid #313131" }} className="budget">
             <div className="service">
               <h3>Budgetierung</h3>
               <p>

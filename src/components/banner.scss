@@ -74,8 +74,17 @@
 
 @media screen and (max-width: 767px) {
   #banner {
-    .brand-title {
-      left: 15px;
+
+    .banner-text{
+      .brand-title {
+        left: 15px;
+      }
+      img{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
     .banner-logo {
