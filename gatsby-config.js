@@ -8,10 +8,17 @@ module.exports = {
     description: `Als eine hybride Werbeproduktion entwickeln wir kreative Lösungen für deine Marke, dein Unternehmen oder dein Projekt. Unser Fokus liegt auf Qualität und individueller Zusammenarbeit.`,
     author: `@jaykch`,
     keywords: ["Werbeagentur", "Filmproduktion", "digital"],
+    siteUrl: `http://excyted.io`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/imprint`],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
